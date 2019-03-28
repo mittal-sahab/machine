@@ -5,7 +5,7 @@ public static void main(String args[])
     {
      Scanner alu=new Scanner(System.in);
      String machine=alu.nextLine();
-     if(machine.equals("Aloo")||machine.equals("aloo"))
+     if(machine.equalsIgnoreCase("ALOO"))
       {
        System.out.println("Sona"); 
         }
